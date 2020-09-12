@@ -1,8 +1,57 @@
 @import "vars";
 @import "libs";
 @import "fonts";
+@import "global";
 
+.header {
+  text-align: center;
 
+  &__logo {
+    padding: 80px 0 60px;
+  }
+}
+
+.menu {
+  border-top: 2px solid #C4C4C4;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__list-item {
+    width: 300px;
+  }
+
+  &__list-item:first-child {
+    border-left: 1px solid #C4C4C4;
+  }
+
+  &__list-item:last-child {
+    border-right: 1px solid #C4C4C4;
+  }
+
+  &__list-link {
+    transition: all .3s;
+    font-size: 24px;
+    line-height: 28px;
+    color: #888888;
+    display: block;
+    padding: 34px 10px 38px;
+    border-right: 1px solid #C4C4C4;
+    border-left: 1px solid #C4C4C4;
+    
+    &--active {
+      background-color: #000;
+      color: #fff;
+    }
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}
 
 
 
