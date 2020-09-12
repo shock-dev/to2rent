@@ -40,7 +40,7 @@
     padding: 34px 10px 38px;
     border-right: 1px solid #C4C4C4;
     border-left: 1px solid #C4C4C4;
-    
+
     &--active {
       background-color: #000;
       color: #fff;
@@ -51,6 +51,35 @@
       color: #fff;
     }
   }
+}
+
+.slider {
+
+  &__item {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 600px;
+  }
+}
+
+.slick-arrow {
+  cursor: pointer;
+  position: absolute;
+  outline: none;
+  border: none;
+  background: none;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+
+.slick-prev {
+  left: 20px;
+}
+
+.slick-next {
+  right: 20px;
 }
 
 
