@@ -179,6 +179,71 @@
   }
 }
 
+.reason {
+  padding: 100px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 470px;
+  }
+
+  &__item-title {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+    padding-left: 136px;
+    font-family: PT Serif;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 103px;
+      height: 103px;
+    }
+  }
+
+  &__item-title--icon-1:before {
+    background-image: url('../img/time.png');
+  }
+
+  &__item-title--icon-2:before {
+    background-image: url('../img/world.png');
+  }
+
+  &__item-text {
+    margin-bottom: 42px;
+  }
+
+  &__item-link {
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoratione: underline;
+    color: #888888;
+    padding-left: 36px;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: -5px;
+      background-image: url('../img/arrow-black.svg');
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
 
 
 @import "media";
