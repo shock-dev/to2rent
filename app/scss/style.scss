@@ -242,6 +242,34 @@
       height: 30px;
     }
   }
+
+}
+
+.best {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: right;
+  padding-top: 68px;
+
+  &__title {
+    font-family: PT Serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    max-width: 457px;
+    margin-left: auto;
+  }
+
+  &__link {
+    color: #ffffff;
+    background: #020202;
+    padding: 16px 18px;
+  }
 }
 
 
