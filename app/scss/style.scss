@@ -138,6 +138,47 @@
   }
 }
 
+.popular {
+  text-align: center;
+
+  &__title {
+    font-family: PT Serif;
+    background-color: #000;
+    color: #fff;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    padding: 18px 15px;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+  }
+
+  &__img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__item-title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #888888;
+    padding: 30px 10px;
+  }
+
+  &__item-link {
+    background: #C4C4C4;
+    color: #fff;
+    padding: 13px 48px;
+  }
+}
+
 
 
 @import "media";
